@@ -1,0 +1,62 @@
+# Environment
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Java / Maven
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+.idea/
+*.classpath
+*.project
+.settings/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Expo / React Native
+node_modules/
+.expo/
+expo-env.d.ts
+
+
+# Build artifacts
+build/
+dist/
+out/
+
+# Local databases and logs
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# Model weights and large binaries
+*.h5
+*.keras
+*.caffemodel
+*.pb
+
+# IDE / editor
+*.swp
+*.swo
+.vscode/
+.cursor/
